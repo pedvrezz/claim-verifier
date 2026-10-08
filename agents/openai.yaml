@@ -1,0 +1,14 @@
+interface:
+  display_name: Verificação antes de afirmar
+  short_description: Confere evidências antes de afirmar fatos e resultados
+  default_prompt: Use $claim-verifier para conferir as afirmações da resposta e explicitar
+    o que ainda não foi confirmado.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
